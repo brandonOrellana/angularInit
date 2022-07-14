@@ -11,3 +11,15 @@
   <h3 question>Is this ng-content cool?</h3>
   <p answer>yea, its is</p>
 </app-child>
+
+<button (click)="toggleText($event)">Toggle text</button>
+{{showText}}
+
+<br>
+{{todaysDate | date : 'long'}} <!-- short -->
+<br>
+{{todaysDate | date : 'EEEE MMMM d y'}}
+<br>
+{{todaysDate | date : 'EEEE MMMM d y' | uppercase}}
+<br>
+{{'Word1' | greetingPipe}}

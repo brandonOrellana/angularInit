@@ -14,4 +14,12 @@ export class AppComponent implements OnInit, OnDestroy{
   ngOnDestroy(): void {
     console.log("bye word");
   }
+  showText = false;
+  toggleText(event: any): void{
+    this.showText = !this.showText;
+    console.log(event);
+  }
+
+  todaysDate = new Date();
+
 }

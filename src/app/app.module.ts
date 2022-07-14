@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HelloWordComponent } from './hello-word/hello-word.component';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
+import { GreetingPipePipe } from './greeting-pipe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWordComponent,
     ChildComponent,
-    ParentComponent
+    ParentComponent,
+    GreetingPipePipe
   ],
   imports: [
     BrowserModule
