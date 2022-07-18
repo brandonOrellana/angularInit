@@ -1,6 +1,3 @@
-# Tutorial 
-freeCodeCamp.org
-
 
 # Proyecto
 
